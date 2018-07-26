@@ -1,10 +1,8 @@
-[![Telesign iOS Sample App](https://github.com/TeleSign/ios_app_verify/blob/master/banner.jpg])](https://standard.telesign.com)
+[![Telesign iOS Sample App](https://github.com/TeleSign/ios_app_verify/blob/master/banner.jpg)](https://standard.telesign.com)
 
-[![Alt Text](https://img.shields.io/travis/TeleSign/ios_app_verify.svg)](https://travis-ci.org/TeleSign/ios_app_verify)
-
-[![Alt Text](https://img.shields.io/codecov/c/github/TeleSign/ios_app_verify.svg)](https://codecov.io/gh/TeleSign/ios_app_verify)
-
-[![Alt Text](https://img.shields.io/github/license/TeleSign/ios_app_verify.svg)](https://github.com/TeleSign/ios_app_verify/blob/master/LICENSE)
+[![Build Status](https://img.shields.io/travis/TeleSign/ios_app_verify.svg)](https://travis-ci.org/TeleSign/ios_app_verify)
+[![Code Coverage](https://img.shields.io/codecov/c/github/TeleSign/ios_app_verify.svg)](https://codecov.io/gh/TeleSign/ios_app_verify)
+[![License](https://img.shields.io/github/license/TeleSign/ios_app_verify.svg)](https://github.com/TeleSign/ios_app_verify/blob/master/LICENSE)
 
 ## Overview
 The App Verify Demo app demonstrates verifying a users phone number by sending SMS to the users device, which contains a unique URL that the user can click on to complete verification automatically. The unique URL contains a URI Scheme and hostname which gets handled via deep links to the app's appropriate view controller, and the security code present in the link is sent to your server for verification. As a backup, the sample app allows for manual security code entry in the view as well.
